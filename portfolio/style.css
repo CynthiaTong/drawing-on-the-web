@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", monospace;
+	font-size:17px;
+}
+
+a {
+	text-decoration: none;
+	/*dark blue*/	
+	color: #0047b3;
+	cursor: pointer;
+}
+
+a:hover {
+	/*light blue*/	
+	color: #3385ff;	
+}
+
+#nyu {
+	/*nyu purple*/	
+	color: rgb(70, 24, 118);
+}
+
+.container {
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	top: 10%;
+	left: 10%;
+}
+
+header {
+	position: relative;
+	top: 10%;
+	left: 15%;
+	float: left;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+#profilePic {
+	position: relative;
+	left: 25%;
+}
+
+#name {
+	position: relative;
+	left: 17%;
+}
+
+#contact {
+	position: relative;
+	top: 10%;
+	left: 14%;	
+}
+
+#rightSide {
+	position: relative;
+	left: 0;
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+#intro {
+	position: relative;
+	top: 50px;
+	right: 20%;
+	width: 80%;
+	float: right;
+}
+
+#assignments {
+	position: relative;
+	top: 7%;
+	right: 25%;
+	width: 60%;
+	float: right;
+}
+
+
+@media (max-width: 930px) {
+	header {
+		left: 5%;
+	}
+	#profilePic {
+		width: 150px;
+		height: 150px;
+	}
+	#contact {
+		top: 55%;
+	}
+	#intro{
+		right: 0;
+		width: 85%;	
+	}
+	#assignments {
+		right: 10%;
+	}
+}
+
+@media (max-width: 770px) {
+	.container {
+		top: 5%;
+		height: 100%;
+	}
+	#profilePic {
+		left: 28%;
+	}
+	header {
+		top: 0;
+		left: 20%;
+	}
+	#rightSide {
+		float: none;
+		position: relative;
+		top: 0;
+		left: 28%;
+	}
+	#intro{
+		width: 120%;
+		left: 15%;	
+		top: 0;	
+		display: none;
+	}
+	#assignments {
+		left: 15%;	
+		top: 0;
+		width: 90%;
+	}
+}
+
+/*@media (max-width: 680px) {
+	#profilePic {
+		left: 28%;
+	}
+	header {
+		top: 5%;
+		left: 25%;
+	}
+	#intro{
+		width: 50%;
+		top: 0;
+		right: 20%;		
+	}
+	#assignments {
+		top: 130px;
+		left: 50px;
+	}
+}*/
+
+

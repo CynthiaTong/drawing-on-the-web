@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#catVideo {
+	position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+
+	z-index = -10;
+}
+
+.gifElement {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#pikaCat {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+
+#ballonCat {
+	position: absolute;
+	top: 10%;
+	left: 80%;
+}
+
+#jazzCat {
+	position: absolute;
+	top: 12%;
+	left: 50%;
+}
