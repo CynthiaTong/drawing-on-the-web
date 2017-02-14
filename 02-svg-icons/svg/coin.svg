@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 200 199.99999"
+   height="56.444443mm"
+   width="56.444443mm">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-29.629837,-824.55603)"
+     id="layer1">
+    <circle
+       r="100"
+       cy="924.55603"
+       cx="129.62984"
+       id="path4285"
+       style="fill:#d40000;fill-opacity:1" />
+    <circle
+       r="87.317749"
+       cy="924.05933"
+       cx="129.62984"
+       id="path3478"
+       style="fill:#ffffff;fill-opacity:1" />
+    <circle
+       r="80.415024"
+       cy="925.0528"
+       cx="129.62984"
+       id="path4293"
+       style="fill:#d40000;fill-opacity:1" />
+    <rect
+       ry="8.9613533"
+       y="898.1665"
+       x="101.75008"
+       height="55.759533"
+       width="55.759533"
+       id="rect4297"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       transform="matrix(0.50689856,-0.86200571,0.4884108,0.87261383,0,0)"
+       y="628.52338"
+       x="-373.44144"
+       height="24.163342"
+       width="23.8641"
+       id="rect3341"
+       style="fill:#ffffff" />
+    <rect
+       transform="matrix(0.48998174,-0.8717327,0.4845984,0.87473675,0,0)"
+       y="684.89172"
+       x="-436.93216"
+       height="23.696815"
+       width="24.815075"
+       id="rect3426"
+       style="fill:#ffffff" />
+    <rect
+       transform="matrix(0.8613835,0.50795518,-0.8785584,0.47763495,0,0)"
+       y="872.72089"
+       x="978.69867"
+       height="23.175314"
+       width="23.773048"
+       id="rect3430"
+       style="fill:#ffffff" />
+    <rect
+       transform="matrix(0.84315422,0.5376718,-0.87467665,0.48470688,0,0)"
+       y="763.48853"
+       x="1010.578"
+       height="24.140564"
+       width="23.345255"
+       id="rect3452"
+       style="fill:#ffffff" />
+  </g>
+</svg>
