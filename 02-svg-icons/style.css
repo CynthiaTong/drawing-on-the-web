@@ -2,6 +2,9 @@ body {
     background-color:rgb(255, 184, 51);
     margin: 0;
     padding: 0;
+    user-select: none;
+    outline: none;
+    border: none;
   }
 
 svg.symbols {
@@ -49,14 +52,14 @@ footer {
 @media (max-width: 1370px) {
   svg.top, svg.bottom {
     margin-right: 4%;
-    left: 28%;
+    left: 30%;
   }
   svg.middle {
-    left: 19%;
+    left: 21%;
   }
   svg.bottom {
     margin-right: 2%;
-    left: 28%;
+    left: 30%;
   }
 }
 
