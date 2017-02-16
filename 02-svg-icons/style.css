@@ -8,10 +8,6 @@ svg.symbols {
   fill: rgb(212, 0, 0);
 }
 
-/*svg.symbols:hover {
-  top: 5px;
-}*/
-
 #topLayer, #middleLayer, #bottomLayer{
   position: relative;
   top: 30px;
