@@ -4,43 +4,51 @@ body {
     padding: 0;
   }
 
-  svg.symbols {
-    fill: rgb(212, 0, 0);
-  }
+svg.symbols {
+  fill: rgb(212, 0, 0);
+}
 
-  svg.symbols:hover {
-    top: 5px;
-  }
+svg.symbols:hover {
+  top: 5px;
+}
 
-  #topLayer, #middleLayer, #bottomLayer{
-    position: relative;
-    top: 30px;
-    width: 100%;
-  }
+#topLayer, #middleLayer, #bottomLayer{
+  position: relative;
+  top: 30px;
+  width: 100%;
+}
 
-  svg.top {
-    position: relative;
-    left: 26%;
-    top: 10px;
-    margin-right: 16%;
-    width: 210px;
-  }
+#bottomLayer {
+  padding-bottom: 70px;
+}
 
-  svg.middle {
-    position: relative;
-    left: 25%;
-    top: 10px;
-    margin-right: 0.5%;
-    width: 220px;
-  }
+svg.top {
+  position: relative;
+  left: 26%;
+  top: 10px;
+  margin-right: 16%;
+  width: 210px;
+}
 
-  svg.bottom {
-    position: relative;
-    left: 25.5%;
-    top: 30px;
-    margin-right: 16%;
-    width: 220px;
-  }
+svg.middle {
+  position: relative;
+  left: 25%;
+  top: 10px;
+  margin-right: 0.5%;
+  width: 220px;
+}
+
+svg.bottom {
+  position: relative;
+  left: 25.5%;
+  top: 30px;
+  margin-right: 16%;
+  width: 220px;
+}
+
+footer {
+  height: 20px;
+}
 
 @media (max-width: 1370px) {
   svg.top, svg.bottom {
