@@ -1,0 +1,118 @@
+body {
+    background-color:rgb(255, 184, 51);
+    margin: 0;
+    padding: 0;
+  }
+
+  svg.symbols {
+    fill: rgb(212, 0, 0);
+  }
+
+  svg.symbols:hover {
+    top: 5px;
+  }
+
+  #topLayer, #middleLayer, #bottomLayer{
+    position: relative;
+    top: 30px;
+    width: 100%;
+  }
+
+  svg.top {
+    position: relative;
+    left: 26%;
+    top: 10px;
+    margin-right: 16%;
+    width: 210px;
+  }
+
+  svg.middle {
+    position: relative;
+    left: 25%;
+    top: 10px;
+    margin-right: 0.5%;
+    width: 220px;
+  }
+
+  svg.bottom {
+    position: relative;
+    left: 25.5%;
+    top: 30px;
+    margin-right: 16%;
+    width: 220px;
+  }
+
+@media (max-width: 1370px) {
+  svg.top, svg.bottom {
+    margin-right: 19%;
+    left: 22%;
+  }
+  svg.middle {
+    left: 22%;
+  }
+}
+
+@media (max-width: 1200px) {
+  svg.middle {
+    margin-right: 0;
+    left: 19%;
+  }
+  svg.top, svg.bottom {
+    margin-right: 21%;
+    left: 19%;
+  }
+}
+
+@media (max-width: 1000px) {
+  svg.middle {
+    margin-right: 0;
+    left: 12%;
+  }
+  svg.top, svg.bottom  {
+    margin-right: 23%;
+    left: 14%;
+  }
+}
+
+@media (max-width: 860px) {
+  svg.middle {
+    left: 2%;
+  }
+  svg.top, svg.bottom  {
+    margin-right: 0;
+    left: 17%;
+  }
+}
+
+@media (max-width: 860px) {
+
+  svg.middle {
+    left: 2%;
+  }
+  svg.top {
+    margin-right: 1%;
+    left: 17%;
+  }
+  svg.bottom  {
+    margin-right: 0;
+    left: 17%;
+}
+
+@media (max-width: 700px) {
+
+  svg.symbols {
+    position: relative;
+    float: left;
+    margin-top:20px;
+    left: 5%;
+  }
+}
+
+@media (max-width: 450px) {
+  svg.symbols {
+    position: relative;
+    float: left;
+    margin-top:20px;
+    left: 20%;
+  }
+}
