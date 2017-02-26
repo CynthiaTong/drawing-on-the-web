@@ -1,0 +1,47 @@
+
+<svg id="eclipse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+
+	<defs>
+		<style>
+
+			@keyframes move {
+				0% {
+					transform: translateX(50px) translateY(-50px);
+				}
+				15% {
+					transform: translateX(150px) translateY(-140px);
+					fill-opacity: 0.8;
+				}
+				30% {
+					transform: translateX(250px) translateY(-195px);
+					fill-opacity: 0.9;
+				}
+				45% {
+					transform: translateX(300px) translateY(-210px);
+					fill-opacity: 0.6;
+				}
+				70% {
+					transform: translateX(250px) translateY(-190px);
+					fill-opacity: 0.8;
+				}
+				100% {
+					transform: translateX(50px) translateY(-50px);
+				}
+			}
+
+			#moon {
+				fill-opacity: 0.5;
+				animation-name: move;
+				animation-duration: 6s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-fill-mode: forwards;
+			}
+
+		</style>
+	</defs>
+
+	<path fill="#fd5" d="M701.846 328.29c0 118.591-96.117 214.729-214.682 214.729s-214.682-96.137-214.682-214.729c0-118.591 96.117-214.729 214.682-214.729s214.682 96.137 214.682 214.729z"></path>
+
+	<path id="moon" fill="#000" d="M443.824 521.643c0 119.010-96.581 215.488-215.719 215.488s-215.719-96.477-215.719-215.488c0-119.010 96.581-215.488 215.719-215.488s215.719 96.477 215.719 215.488z"></path>
+</svg>
