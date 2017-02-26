@@ -10,9 +10,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   viewBox="0 0 204.29883 204.29682"
-   height="57.657104mm"
-   width="57.657669mm"
+   viewBox="0 0 192.29883 192.29683"
+   height="54.270439mm"
+   width="54.271004mm"
    inkscape:version="0.91 r13725"
    sodipodi:docname="coin.svg">
   <sodipodi:namedview
@@ -24,13 +24,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="842"
-     inkscape:window-height="575"
+     inkscape:window-width="1037"
+     inkscape:window-height="660"
      id="namedview14"
      showgrid="false"
      inkscape:zoom="1.6687721"
-     inkscape:cx="124.56652"
-     inkscape:cy="107.19592"
+     inkscape:cx="118.56652"
+     inkscape:cy="101.19594"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -63,10 +63,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.98535623,0,0,0.98535623,-28.904526,-804.33393)"
+     transform="matrix(0.98535623,0,0,0.98535623,-34.904526,-810.33394)"
      id="layer1">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:14.20805931;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.02972269;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 133.00258,823.39149 a 96.563034,96.563034 0 0 0 -96.564463,96.56248 96.563034,96.563034 0 0 0 96.564463,96.56243 96.563034,96.563034 0 0 0 96.56247,-96.56243 96.563034,96.563034 0 0 0 -96.56247,-96.56248 z m 0,1.38751 a 94.871185,94.871185 0 0 1 94.86971,94.8717 94.871185,94.871185 0 0 1 -94.86971,94.8697 94.871185,94.871185 0 0 1 -94.871707,-94.8697 94.871185,94.871185 0 0 1 94.871707,-94.8717 z"
        id="path4285"
        inkscape:connector-curvature="0" />
