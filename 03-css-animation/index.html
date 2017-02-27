@@ -3,106 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>CSS Animation - Weather icons</title>
-
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				background-color: white;
-			}
-
-			#container {
-				width: 400px;
-				height: 400px;
-				margin:auto;
-				margin-top: 200px;
-				perspective: 1000px;
-				perspective-origin: 50% 50%;
-				
-			}
-
-			@keyframes slide {
-				from {transform: rotateY(0deg);}
-				to {transform: rotateY(360deg);}
-			}
-
-			.slides {
-				position: relative;
-				width: 400px;
-				height: 400px;
-				transform-style: preserve-3d;
-				animation: slide 18s infinite linear;
-			}
-
-			.slides:hover, .slides:active{
-				animation-play-state: paused;
-			}
-
-
-			#img1 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/raindrop-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: translateZ(350px);
-			}
-
-			#img2 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/lightening-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: rotateY(60deg) translateZ(350px);
-
-			}
-
-			#img3 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/snowfall-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: rotateY(120deg) translateZ(350px);
-			}
-
-			#img4 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/cloudy-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: rotateY(180deg) translateZ(350px);
-			}
-
-			#img5 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/eclipse-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: rotateY(240deg) translateZ(350px);
-			}
-
-			#img6 {
-				background-color: gray;
-				opacity: 0.9;
-				background-image: url("images/moon-icon.svg");
-				position: absolute;
-				width:400px;
-				height: 400px;
-				transform: rotateY(300deg) translateZ(350px);
-			}
-
-
-		</style>
-
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="shortcut icon" href="../media/favicon.ico">
 	</head>
 	<body>
 
@@ -112,7 +14,6 @@
 		<img src="images/cloudy-icon.svg" width="200" height="200">
 		<img src="images/eclipse-icon.svg" width="200" height="200">
 		<img src="images/moon-icon.svg" width="200" height="200"> -->
-
 
 		<div id="container">
 			<div class="slides">

@@ -12,20 +12,22 @@
 			@keyframes drop {
 				0% {
 					stroke-opacity: 0;
+					transform: rotateZ(45deg);
 				}
 				25% {
 					stroke-opacity: 0.5;
+					transform: rotate(90deg);
 				}
 				50% {
 					stroke-opacity: 1;
-					transform: translateY(170px);
+					transform: translateY(170px) rotate(135deg);
 				}
 				75% {
-					stroke-opacity: 0.6;
+					stroke-opacity: 0.6 rotate(180deg);
 				}
 				100% {
 					stroke-opacity: 0;
-					transform: translateY(400px);
+					transform: translateY(400px) rotate(225deg);
 				}
 			}
 
@@ -34,26 +36,27 @@
 				animation-name: drop;
 				animation-timing-function: linear;
 				animation-iteration-count: infinite;
+				transform-origin: center;
 			}
 
 			#s1 {
-				animation-duration: 1s;
+				animation-duration: 1.6s;
 			}
 			#s2 {
 				animation-delay: 0.5s;
-				animation-duration: 1.4s;
+				animation-duration: 2s;
 			}
 			#s3 {
 				animation-delay: 0.4s;
-				animation-duration: 1.2s;
+				animation-duration: 1.8s;
 			}
 			#s4 {
 				animation-delay: 0.6s;
-				animation-duration: 1.3s;
+				animation-duration: 2.1s;
 			}
 			#s5 {
 				animation-delay: 0.2s;
-				animation-duration: 1.5s;
+				animation-duration: 1.9s;
 			}
 
 		</style>
