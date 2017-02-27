@@ -31,65 +31,50 @@ body {
 	animation-play-state: paused;
 }
 
+div.slides > div{
+	transition-property: opacity, box-shadow;
+	transition-duration: 1.2s;
 
-#img1 {
 	background-color: gray;
-	opacity: 0.9;
-	background-image: url("images/raindrop-icon.svg");
+	opacity: 0.8;
 	position: absolute;
 	width:400px;
 	height: 400px;
+}
+
+div.slides > div:hover, div.slides > div:active {
+	opacity: 0.95;
+    box-shadow: inset 0 0 0 3px #e6e6e6;
+}
+
+#img1 {
+	background-image: url("images/raindrop-icon.svg");
 	transform: translateZ(350px);
 }
 
 #img2 {
-	background-color: gray;
-	opacity: 0.9;
 	background-image: url("images/lightening-icon.svg");
-	position: absolute;
-	width:400px;
-	height: 400px;
 	transform: rotateY(60deg) translateZ(350px);
 
 }
 
 #img3 {
-	background-color: gray;
-	opacity: 0.9;
 	background-image: url("images/snowfall-icon.svg");
-	position: absolute;
-	width:400px;
-	height: 400px;
 	transform: rotateY(120deg) translateZ(350px);
 }
 
 #img4 {
-	background-color: gray;
-	opacity: 0.9;
 	background-image: url("images/cloudy-icon.svg");
-	position: absolute;
-	width:400px;
-	height: 400px;
 	transform: rotateY(180deg) translateZ(350px);
 }
 
 #img5 {
-	background-color: gray;
-	opacity: 0.9;
 	background-image: url("images/eclipse-icon.svg");
-	position: absolute;
-	width:400px;
-	height: 400px;
 	transform: rotateY(240deg) translateZ(350px);
 }
 
 #img6 {
-	background-color: gray;
-	opacity: 0.9;
 	background-image: url("images/moon-icon.svg");
-	position: absolute;
-	width:400px;
-	height: 400px;
 	transform: rotateY(300deg) translateZ(350px);
 }
 
