@@ -36,14 +36,14 @@ div.slides > div{
 	transition-duration: 1.2s;
 
 	background-color: gray;
-	opacity: 0.8;
+	opacity: 0.9;
 	position: absolute;
 	width:400px;
 	height: 400px;
 }
 
 div.slides > div:hover, div.slides > div:active {
-	opacity: 0.95;
+	opacity: 0.98;
     box-shadow: inset 0 0 0 3px #e6e6e6;
 }
 
@@ -80,7 +80,7 @@ div.slides > div:hover, div.slides > div:active {
 
 @media (max-width: 1200px) {
 	#container {
-		margin-top: 100px;
+		margin-top: 150px;
 		perspective: 1800px;
 	}
 }
