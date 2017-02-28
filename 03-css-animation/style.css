@@ -8,7 +8,7 @@ body {
 	width: 400px;
 	height: 400px;
 	margin:auto;
-	margin-top: 13%;
+	margin-top: 200px;
 	perspective: 1000px;
 	perspective-origin: 50% 50%;
 	
@@ -80,7 +80,7 @@ div.slides > div:hover, div.slides > div:active {
 
 @media (max-width: 1200px) {
 	#container {
-		margin-top: 10%;
+		margin-top: 100px;
 		perspective: 1800px;
 	}
 }
