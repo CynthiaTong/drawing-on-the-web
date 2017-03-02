@@ -23,15 +23,15 @@ svg.symbols {
 
 svg.top {
   position: relative;
-  left: 26%;
+  left: 33.5%;
   top: 10px;
-  margin-right: 16%;
+  margin-right: 5%;
   width: 210px;
 }
 
 svg.middle {
   position: relative;
-  left: 25%;
+  left: 26%;
   top: 10px;
   margin-right: 0.5%;
   width: 220px;
@@ -39,9 +39,9 @@ svg.middle {
 
 svg.bottom {
   position: relative;
-  left: 25.5%;
+  left: 32.5%;
   top: 30px;
-  margin-right: 16%;
+  margin-right: 5%;
   width: 220px;
 }
 
