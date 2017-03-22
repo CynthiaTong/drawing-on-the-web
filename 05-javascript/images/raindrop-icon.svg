@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="raindrop"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="raindrop-icon.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1208"
+     inkscape:window-height="778"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="420.80974"
+     inkscape:cy="494.85702"
+     inkscape:window-x="0"
+     inkscape:window-y="46"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="raindrop" />
+  <defs
+     id="defs3">
+    <style
+       id="style5">
+
+			@keyframes drop {
+				0% {
+					fill-opacity: 0;
+				}
+				25% {
+					fill-opacity: 0.2;
+				}
+				45% {
+					fill-opacity: 0.9;
+					transform: translateY(170px);
+				}
+				65% {
+					fill-opacity: 0.7;
+				}
+				100% {
+					fill-opacity: 0;
+					transform: translateY(340px);
+				}
+			}
+
+			.drops {
+				fill-opacity: 1;
+				stroke: none;
+				animation-name: drop;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+
+			}
+
+			#d1 {
+				animation-delay: 100ms;
+				animation-duration: 1.1s;
+			}
+
+			#d2 {
+				animation-delay: 250ms;
+				animation-duration: 1.3s;
+			}
+
+			#d3 {
+				animation-delay: 300ms;
+				animation-duration: 1.2s;
+			}
+
+			#d4 {
+				animation-delay: 350ms;
+				animation-duration: 1s;
+			}
+
+			#d5 {
+				animation-delay: 180ms;
+				animation-duration: 1.3s;
+			}
+
+
+		</style>
+  </defs>
+  <title
+     id="title7">raindrop</title>
+  <!-- rain drops -->
+  <path
+     class="drops"
+     id="d1"
+     d="m 296.17211,439.947 -2.48896,0 c 6.58419,0 11.92211,4.8923 11.92211,10.92684 l 0,38.24294 c 0,6.03455 -5.33792,10.92685 -11.92211,10.92685 l 2.48896,0 c -6.58419,0 -11.92211,-4.8923 -11.92211,-10.92685 l 0,-38.24294 c 0,-6.03454 5.33792,-10.92684 11.92211,-10.92684 z"
+     inkscape:connector-curvature="0"
+     style="fill:#b3e0ff;fill-opacity:1;stroke:none" />
+  <path
+     class="drops"
+     id="d2"
+     d="m 379.50574,436.017 0.91535,0 c 7.2649,0 13.15374,5.31154 13.15374,11.8627 l 0,43.49768 c 0,6.55185 -5.88959,11.8627 -13.15374,11.8627 l -0.91535,0 c -7.2649,0 -13.15374,-5.31153 -13.15374,-11.8627 l 0,-43.49768 c 0,-6.55185 5.8896,-11.8627 13.15374,-11.8627 z"
+     inkscape:connector-curvature="0"
+     style="fill:#b3e0ff;fill-opacity:1;stroke:none" />
+  <path
+     class="drops"
+     id="d3"
+     d="m 492.45165,434.17 -0.26454,0 c 6.17184,0 11.17566,6.17577 11.17566,13.79499 l 0,48.6358 c 0,7.61839 -5.00314,13.79499 -11.17566,13.79499 l 0.26454,0 c -6.17184,0 -11.17565,-6.17575 -11.17565,-13.79499 l 0,-48.6358 c 0,-7.61839 5.00314,-13.79499 11.17565,-13.79499 z"
+     inkscape:connector-curvature="0"
+     style="fill:#b3e0ff;fill-opacity:1;stroke:none" />
+  <path
+     class="drops"
+     id="d4"
+     d="m 595.16963,432.977 0.37271,0 c 7.1302,0 12.91063,6.41106 12.91063,14.31915 l 0,50.57187 c 0,7.90809 -5.78043,14.31915 -12.91063,14.31915 l -0.37271,0 c -7.1302,0 -12.91063,-6.41106 -12.91063,-14.31915 l 0,-50.57187 c 0,-7.90809 5.78043,-14.31915 12.91063,-14.31915 z"
+     inkscape:connector-curvature="0"
+     style="fill:#b3e0ff;fill-opacity:1;stroke:none" />
+  <path
+     class="drops"
+     id="d5"
+     d="m 693.89954,431.43006 -1.00292,0 c 5.48275,0 9.92785,6.09302 9.92785,13.61008 l 0,49.17488 c 0,7.51629 -4.44454,13.61008 -9.92785,13.61008 l 1.00292,0 c -5.48274,0 -9.92785,-6.09302 -9.92785,-13.61008 l 0,-49.17488 c 0,-7.51629 4.44455,-13.61008 9.92785,-13.61008 z"
+     inkscape:connector-curvature="0"
+     style="fill:#b3e0ff;fill-opacity:1;stroke:none" />
+  <!-- the cloud -->
+  <path
+     d="m 205.62084,515.77264 c -15.083,-1.45 -35.377,-6.978 -48.351,-13.17 -35.03999,-16.723 -62.256993,-50.889 -70.125993,-88.031 -3.491,-16.478 -2.053,-42.149 3.239,-57.811 13.313003,-39.403 49.215003,-66.256 100.467993,-75.148 7.13,-1.237 16.654,-2.259 21.165,-2.271 10.46,-0.028 12.533,-1.309 11.388,-7.035 -2.037,-10.183 2.588,-35.87999 10.031,-55.73699 19.479,-51.968 79.141,-100.31 154.642,-125.303 41.141,-13.618 72.699,-19.038 117.502,-20.178006 47.216,-1.202 81.791,3.500006 121.151,16.474006 88.041,29.022 144.47,90.493 162.672,177.20499 l 3.217,15.326 20.58,0.196 c 30.447,0.29 48.068,4.119 67.51,14.669 42.356,22.986 67.675,72.178 61.404,119.301 -7.457,56.036 -49.773,92.401 -114.681,98.552 -8.202,0.777 -134.181,1.746 -287.551,2.212 -150.125,0.456 -283.792,1.095 -297.038,1.42 -13.246,0.325 -29.996,0.023 -37.221,-0.672 z"
+     id="path14"
+     inkscape:connector-curvature="0"
+     style="fill:#e6e6e6;fill-opacity:1" />
+</svg>
