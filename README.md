@@ -4,6 +4,7 @@ Hosted on: [course project website](http://i6.cims.nyu.edu/~xt405/380/)
 
 Existing projects: 
 
-1. HTML & CSS
-2. SVG
-3. CSS Animation 
+- [HTML & CSS](http://i6.cims.nyu.edu/~xt405/380/01-html-css/)
+- [SVG](http://i6.cims.nyu.edu/~xt405/380/02-svg-icon/)
+- [CSS Animation](http://i6.cims.nyu.edu/~xt405/380/03-css-animation/)
+- [JavaScript](http://i6.cims.nyu.edu/~xt405/380/05-javascript/)
