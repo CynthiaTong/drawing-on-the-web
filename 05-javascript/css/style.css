@@ -42,33 +42,33 @@ div.slides > div:hover, div.slides > div:active {
 }
 
 #img1 {
-	background-image: url("images/raindrop-icon.svg");
+	background-image: url("../images/raindrop-icon.svg");
 	transform: translateZ(350px);
 }
 
 #img2 {
-	background-image: url("images/lightening-icon.svg");
+	background-image: url("../images/lightening-icon.svg");
 	transform: rotateY(60deg) translateZ(350px);
 
 }
 
 #img3 {
-	background-image: url("images/snowfall-icon.svg");
+	background-image: url("../images/snowfall-icon.svg");
 	transform: rotateY(120deg) translateZ(350px);
 }
 
 #img4 {
-	background-image: url("images/cloudy-icon.svg");
+	background-image: url("../images/cloudy-icon.svg");
 	transform: rotateY(180deg) translateZ(350px);
 }
 
 #img5 {
-	background-image: url("images/eclipse-icon.svg");
+	background-image: url("../images/eclipse-icon.svg");
 	transform: rotateY(240deg) translateZ(350px);
 }
 
 #img6 {
-	background-image: url("images/moon-icon.svg");
+	background-image: url("../images/moon-icon.svg");
 	transform: rotateY(300deg) translateZ(350px);
 }
 
