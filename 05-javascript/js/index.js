@@ -10,16 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
      var degrees = clicks*60 + 60;
 
      images.style.transform = "rotateY(" + degrees + "deg)";
-
-    //  images.animate([
-    //    {transform: "rotateY(" + (degrees-60) + "deg)"},
-    //  	 {transform: "rotateY(" + degrees + "deg)"}
-    //  ], {
-    //    duration: 1500,
-    //    easing: "linear",
-    //    fill: "forwards"
-    //  });
-
    }
 
    function slideLeft(count) {
