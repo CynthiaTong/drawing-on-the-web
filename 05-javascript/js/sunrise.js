@@ -2,12 +2,11 @@ var sun = document.getElementById("sun");
 var sky = document.getElementById("sky");
 var ground = document.getElementById("ground");
 
-// var angle = 270;
 var radius = 90;
 var initY = 600;
 var light = 75;
 
-function circularMotion(cy) {
+function sunMotion(cy) {
 
   y = cy -= 2;
   light -= 0.1;
@@ -30,11 +29,11 @@ function circularMotion(cy) {
   sky.style.background = "radial-gradient(at 50% " + perc + "%," + hsl2 + ", #80aaff)";
 
   requestAnimationFrame(function() {
-    circularMotion(y);
+    sunMotion(y);
   });
 
 }
 
 var motion = requestAnimationFrame(function() {
-  circularMotion(initY);
+  sunMotion(initY);
 });
