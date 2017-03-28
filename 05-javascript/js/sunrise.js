@@ -4,7 +4,7 @@ var ground = document.getElementById("ground");
 
 // var angle = 270;
 var radius = 90;
-var initY = 700;
+var initY = 600;
 var light = 75;
 
 function circularMotion(cy) {
@@ -12,7 +12,7 @@ function circularMotion(cy) {
   y = cy -= 2;
   light -= 0.1;
 
-  if (y < -350) {
+  if (y < -400) {
     // reset
     y = initY;
     light = 75;
