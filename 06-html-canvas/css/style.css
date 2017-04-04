@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1950px;
+  height: 100%;
+  margin: auto;
+}
+
+#frames {
+  width: inherit;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  margin-top: -225px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+iframe {
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #e0e0e0; /* feel free to change or remove this color */
+  border: 0;
+}
+
+/*added styling */
+#pixelateBtn {
+    position: absolute;
+    top: 470px;
+    left: 60px;
+}
+
+#posterizeBtn {
+    position: absolute;
+    top: 470px;
+    left: 140px;
+}
+
+#resetBtn {
+    position: absolute;
+    top: 470px;
+    left: 220px;
+}
