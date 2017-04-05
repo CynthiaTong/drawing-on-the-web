@@ -1,5 +1,4 @@
 // Drawing 1
-
 var canvas, context;
 
 var min_galaxy, galaxy;
@@ -27,10 +26,7 @@ function setup() {
 
     posterizeBtn.addEventListener("click", function() {
         image(galaxy, 0, 0, width, height);
-        filter(POSTERIZE, 3);
-
-        var imgData = context.getImageData(0,0, width, height).data;
-
+        var imgData = context.getImageData(0,0, width, height);
         posterize(imgData);
     });
 
@@ -47,76 +43,46 @@ function draw() {
 function pixelate(img, scale) {
     pixelDensity = 1;
     img.loadPixels();
-    // loadPixels();
 
     var index;
-	var r,g,b,a;
+	  var r,g,b,a;
 
     for (var x = 0; x < img.width; x++) {
         for (var y = 0; y < img.height; y++) {
-            index = (x + y*img.width)*4;
+            index = (x + y*img.width) * 4;
 
             r = img.pixels[index];
-            g = img.pixels[index+1];
-            b = img.pixels[index+2];
-            a = img.pixels[index+3];
+            g = img.pixels[index + 1];
+            b = img.pixels[index + 2];
+            a = img.pixels[index + 3];
 
             fill(r,g,b,a);
             strokeWeight(0.2);
             stroke(0);
             rect(x*scale, y*scale, scale, scale);
-
         }
     }
 
 }
 
-function posterize(pixelData) {
+// the algorithm for this posterize function comes from
+// p5.js : https://github.com/processing/p5.js/blob/master/src/image/filters.js
+function posterize(imgData) {
 
-    // var rgbValues = [25, 75, 125, 175, 225, 255];
-    //
-    // pixelDensity = 1;
-    // img.loadPixels();
-    // loadPixels();
-    //
-    // var index;
-    // var r,g,b,a;
-    //
-    // for (var x=0; x < img.width; x ++) {
-    //     for (var y=0; y < img.height; y ++) {
-    //         index = (x + y*img.width)*4;
-    //
-    //         r = img.pixels[index];
-    //         g = img.pixels[index+1];
-    //         b = img.pixels[index+2];
-    //         a = img.pixels[index+3];
-    //
-    //         for (var i in rgbValues) {
-    //             if (r <= rgbValues[i]) {
-    //                 console.log(r);
-    //                 pixels[index] = i;
-    //                 break;
-    //             }
-    //         }
-    //         for (var i in rgbValues) {
-    //             if (g <= rgbValues[i]) {
-    //                 pixels[index+1] = i;
-    //                 break;
-    //             }
-    //         }
-    //         for (var i in rgbValues) {
-    //             if (b <= rgbValues[i]) {
-    //                 pixels[index+2] = i;
-    //                 break;
-    //             }
-    //         }
-    //
-    //
-    //         // fill(r,g,b);
-    //         // rect(x, y, 1, 1);
-    //     }
-    // }
-    //
-    // updatePixels();
+    var pixelData = imgData.data;
+    var level = 4;
+    var levels1 = level - 1;
 
+    for (var i = 0; i < pixelData.length; i += 4) {
+
+     var rlevel = pixelData[i];
+     var glevel = pixelData[i + 1];
+     var blevel = pixelData[i + 2];
+
+     pixelData[i] = (((rlevel * level) >> 8) * 255) / levels1;
+     pixelData[i + 1] = (((glevel * level) >> 8) * 255) / levels1;
+     pixelData[i + 2] = (((blevel * level) >> 8) * 255) / levels1;
+   }
+
+   context.putImageData(imgData, 0, 0);
 }

@@ -30,19 +30,20 @@ iframe {
 
 /*added styling */
 #pixelateBtn {
-    position: absolute;
-    top: 470px;
-    left: 60px;
+  position: absolute;
+  top: -30px;
+  left: 140px;
 }
 
 #posterizeBtn {
-    position: absolute;
-    top: 470px;
-    left: 140px;
+  position: absolute;
+  top: -30px;
+  left: 60px;
+
 }
 
 #resetBtn {
-    position: absolute;
-    top: 470px;
-    left: 220px;
+  position: absolute;
+  top: -30px;
+  left: 220px;
 }
