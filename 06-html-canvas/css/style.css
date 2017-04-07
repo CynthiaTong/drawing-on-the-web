@@ -32,7 +32,7 @@ iframe {
 #pixelateBtn {
   position: absolute;
   top: -30px;
-  left: 140px;
+  left: 200px;
 }
 
 #posterizeBtn {
@@ -42,8 +42,14 @@ iframe {
 
 }
 
+#invertBtn {
+  position: absolute;
+  top: -30px;
+  left: 140px;
+}
+
 #resetBtn {
   position: absolute;
   top: -30px;
-  left: 220px;
+  left: 300px;
 }
