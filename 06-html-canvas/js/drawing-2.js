@@ -8,9 +8,15 @@ function setup() {
 }
 
 function draw() {
-  background(20, 100);
 
-  for (var i = 0; i < fireworks.length; i++) {
+    textSize(20);
+    fill(255);
+    text("Fireworks", 30, 30);
+    noFill();
+
+    background(20, 100);
+
+    for (var i = 0; i < fireworks.length; i++) {
     var firework = fireworks[i];
 
     firework.rise();
@@ -20,11 +26,11 @@ function draw() {
     else {
       firework.add();
     }
-  }
+    }
 
-  if (fireworks.length === 0) {
+    if (fireworks.length === 0) {
     createFireworks(random(4, 6));
-  }
+    }
 
 }
 
@@ -72,7 +78,7 @@ var System = function(position) {
 };
 
 System.prototype.add = function () {
-  if (frameCount % 2 === 0) {
+  if (frameCount % 5 === 0) {
     this.particles.push(new Particle(this.finalPos));
   }
 };

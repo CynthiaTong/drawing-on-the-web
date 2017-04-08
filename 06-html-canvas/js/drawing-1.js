@@ -1,5 +1,6 @@
 // Drawing 1
 var canvas, context;
+var pxd, pxWidth, pxHeight;
 
 var min_galaxy, galaxy;
 var pixelateBtn = parent.document.getElementById("pixelateBtn");
@@ -18,22 +19,26 @@ function setup() {
     canvas = document.querySelector("canvas");
     context = canvas.getContext("2d");
 
+    pxd = pixelDensity();
+    pxWidth = width * pxd;
+    pxHeight = height * pxd;
+
     image(galaxy, 0, 0, width, height);
 
-    pixelateBtn.addEventListener("click", function() {
-        var scale = width/min_galaxy.width;
-        pixelate(min_galaxy, scale);
-    });
+    // pixelateBtn.addEventListener("click", function() {
+    //     var scale = width/min_galaxy.width;
+    //     pixelate(min_galaxy, scale);
+    // });
 
     posterizeBtn.addEventListener("click", function() {
         image(galaxy, 0, 0, width, height);
-        var imgData = context.getImageData(0,0, width, height);
+        var imgData = context.getImageData(0,0, pxWidth, pxHeight);
         posterize(imgData);
     });
 
     invertBtn.addEventListener("click", function() {
         image(galaxy, 0, 0, width, height);
-        var imgData = context.getImageData(0,0, width, height);
+        var imgData = context.getImageData(0,0, pxWidth, pxHeight);
         invert(imgData);
     });
 

@@ -29,27 +29,28 @@ iframe {
 }
 
 /*added styling */
-#pixelateBtn {
+
+/*#pixelateBtn {
   position: absolute;
   top: -30px;
   left: 200px;
-}
+}*/
 
 #posterizeBtn {
-  position: absolute;
-  top: -30px;
-  left: 60px;
+    position: absolute;
+    top: -30px;
+    left: 60px;
 
 }
 
 #invertBtn {
-  position: absolute;
-  top: -30px;
-  left: 140px;
+    position: absolute;
+    top: -30px;
+    left: 140px;
 }
 
 #resetBtn {
-  position: absolute;
-  top: -30px;
-  left: 300px;
+    position: absolute;
+    top: -30px;
+    left: 220px;
 }
