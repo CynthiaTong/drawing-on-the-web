@@ -9,12 +9,13 @@ function setup() {
 
 function draw() {
 
+    background(20, 100);
+
     textSize(20);
-    fill(255);
+    fill(150);
+    noStroke();
     text("Fireworks", 30, 30);
     noFill();
-
-    background(20, 100);
 
     for (var i = 0; i < fireworks.length; i++) {
     var firework = fireworks[i];
