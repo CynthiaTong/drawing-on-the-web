@@ -94,7 +94,7 @@ Star.prototype.display = function (sun) {
 var Sun = function() {
     this.mass = 400;
     this.loc = createVector(random(width/2-100, width/2+100), random(height/2-100, height/2+100));
-    this.G = 2.5;
+    this.G = 5;
     this.r = this.mass/7;
 
     this.darkness = 255;
@@ -117,10 +117,10 @@ Sun.prototype.destroy = function(star) {
     var dist = p5.Vector.sub(this.loc, star.loc).mag();
 
     if (dist < this.r/2 + star.r) {
-        if (this.darkness >= 0) {
-            this.darkness -= 7;
-            this.mass += 3*7;
-            this.r += 3;
+        if (this.darkness >= -255) {
+            this.darkness -= 5;
+            this.mass += 2.5*7;
+            this.r += 2.5;
         }
 
         return true;
