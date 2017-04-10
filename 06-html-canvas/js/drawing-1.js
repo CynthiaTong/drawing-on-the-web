@@ -25,11 +25,6 @@ function setup() {
 
     image(galaxy, 0, 0, width, height);
 
-    // pixelateBtn.addEventListener("click", function() {
-    //     var scale = width/min_galaxy.width;
-    //     pixelate(min_galaxy, scale);
-    // });
-
     posterizeBtn.addEventListener("click", function() {
         image(galaxy, 0, 0, width, height);
         var imgData = context.getImageData(0,0, pxWidth, pxHeight);
@@ -48,31 +43,6 @@ function setup() {
 }
 
 function draw() {
-
-}
-
-function pixelate(img, scale) {
-    pixelDensity = 1;
-    img.loadPixels();
-
-    var index;
-	var r,g,b,a;
-
-    for (var x = 0; x < img.width; x++) {
-        for (var y = 0; y < img.height; y++) {
-            index = (x + y*img.width) * 4;
-
-            r = img.pixels[index];
-            g = img.pixels[index + 1];
-            b = img.pixels[index + 2];
-            a = img.pixels[index + 3];
-
-            fill(r,g,b,a);
-            strokeWeight(0.2);
-            stroke(0);
-            rect(x*scale, y*scale, scale, scale);
-        }
-    }
 
 }
 

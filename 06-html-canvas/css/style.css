@@ -30,17 +30,10 @@ iframe {
 
 /*added styling */
 
-/*#pixelateBtn {
-  position: absolute;
-  top: -30px;
-  left: 200px;
-}*/
-
 #posterizeBtn {
     position: absolute;
     top: -30px;
     left: 60px;
-
 }
 
 #invertBtn {
