@@ -61,14 +61,14 @@ function drawStars(star) {
 
 }
 
-var Star = function(m, x, y) {
+function Star(m, x, y) {
     this.mass = m;
     this.r = this.mass;
     this.loc = createVector(x, y);
     // initial velocity is 0
     this.v = createVector(0, 0);
     this.a = createVector(random(-2.5, 2.5), random(-1, 1));
-};
+}
 
 Star.prototype.update = function() {
     this.v.add(this.a);
@@ -91,14 +91,14 @@ Star.prototype.display = function (sun) {
     ellipse(this.loc.x, this.loc.y, this.r, this.r);
 };
 
-var Sun = function() {
+function Sun() {
     this.mass = 400;
     this.loc = createVector(random(width/2-100, width/2+100), random(height/2-100, height/2+100));
     this.G = 5;
     this.r = this.mass/7;
 
     this.darkness = 255;
-};
+}
 
 Sun.prototype.attract = function (star) {
     var force = p5.Vector.sub(this.loc, star.loc);

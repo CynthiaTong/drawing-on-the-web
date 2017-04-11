@@ -42,14 +42,14 @@ function createFireworks(num) {
 }
 
 // Particle class
-var Particle = function(pos) {
+function Particle(pos) {
   this.pos = pos.copy();
   this.v = createVector(random(-3, 3), random(-5, 0.5));
   this.a = createVector(0, 0.15);
   this.life = 255;
   this.color = [random(255), random(255), random(255)];
 
-};
+}
 
 Particle.prototype.update = function() {
   this.v.add(this.a);
@@ -70,13 +70,13 @@ Particle.prototype.dead = function() {
 };
 
 // System class
-var System = function(position) {
+function System(position) {
   this.pos = position;
   this.particles = [];
   this.finalPos = createVector(this.pos.x, random(height/2, height/3.5));
   this.life = 120;
   this.delay = random(0, 120);
-};
+}
 
 System.prototype.add = function () {
   if (frameCount % 5 === 0) {
