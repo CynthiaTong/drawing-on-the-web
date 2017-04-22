@@ -34,7 +34,7 @@ function init() {
     var textureLoader = new THREE.TextureLoader();
     textureLoader.load('imgs/aluminum.jpg', function(texture) {
 
-        var material = new THREE.MeshStandardMaterial({map: texture});
+        var material = new THREE.MeshBasicMaterial({map: texture});
 
         var loader = new THREE.BufferGeometryLoader();
 
@@ -44,6 +44,7 @@ function init() {
             mesh.position.y = -250;
             mesh.position.z = -400;
             mesh.castShadow = true;
+            mesh.overdraw = true;
             scene.add(mesh);
         });
     });
