@@ -1,7 +1,6 @@
 var camera, scene, renderer, controls;
 var mesh;
 
-
 function init() {
 
     scene = new THREE.Scene();
@@ -34,7 +33,7 @@ function init() {
     var textureLoader = new THREE.TextureLoader();
     textureLoader.load('imgs/aluminum.jpg', function(texture) {
 
-        var material = new THREE.MeshBasicMaterial({map: texture});
+        var material = new THREE.MeshStandardMaterial({map: texture});
 
         var loader = new THREE.BufferGeometryLoader();
 
@@ -59,7 +58,7 @@ function init() {
 
     var particleCount = 2000;
     var particles = new THREE.Geometry();
-    var pMaterial = new THREE.PointsMaterial({color: 0xffffff, size: Math.random()*40});
+    var pMaterial = new THREE.PointsMaterial({color: 0xffffff, size: Math.random()*50});
 
     for (var p = 0; p < particleCount; p++) {
       // create a particle with random position (-15000, 150000)
